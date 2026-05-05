@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://attendanceSystem-backend-sk1n.onrender.com',
+       target: 'https://attendanceSystem-backend-sk1n.onrender.com',
         changeOrigin: true
       }
     }

@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api',
+  //baseURL: '/api',
+   baseURL: "https://attendanceSystem-backend-sk1n.onrender.com/api",
 });
 
 // Attach token from localStorage automatically
